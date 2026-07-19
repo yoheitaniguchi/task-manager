@@ -1,0 +1,9 @@
+{
+  "id": "task-manager",
+  "name": "Task Manager",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "パーソナルカンバン + WIP摩擦制御。会議の重要度×コスト評価と委譲追跡を統合した個人フロー制御レイヤー。",
+  "author": "",
+  "isDesktopOnly": false
+}

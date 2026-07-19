@@ -1,0 +1,33 @@
+{
+  "name": "task-manager",
+  "version": "0.1.0",
+  "description": "Obsidian personal kanban with WIP friction, meeting cost evaluation and delegation tracking",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && svelte-check --threshold error && node esbuild.config.mjs production",
+    "check": "tsc --noEmit && svelte-check --threshold error",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/node": "^22.10.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.28.1",
+    "esbuild-svelte": "^0.8.2",
+    "obsidian": "^1.7.2",
+    "svelte": "^5.15.0",
+    "svelte-check": "^4.7.3",
+    "svelte-preprocess": "^6.0.3",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  },
+  "dependencies": {
+    "ical.js": "^2.1.0"
+  }
+}
